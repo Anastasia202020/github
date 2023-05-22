@@ -3,7 +3,7 @@
 
 }
 body {
-    background-color: grey;
+    background-color: rgb(209, 202, 202);
 }
 header {
     
@@ -74,4 +74,19 @@ td {
 }
 .row {
     padding-top: 0px;
+}
+
+.authors {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    margin-top: 50px;
+    border: 1px solid rgb(216, 212, 212);
+}
+.img {
+    height: 300px;
+    width: 200px;
+}
+.block {
+    margin-right: 20px;
 }
