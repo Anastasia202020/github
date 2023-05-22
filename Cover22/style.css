@@ -1,0 +1,50 @@
+.progressbar { 
+	height: 20px;
+	position: relative;
+	background: #555;
+	padding: 3px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    width: 300px;
+}
+.ani {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(43,194,83);
+    position: relative;
+    overflow: hidden;
+    animation: move, linear;
+    animation-duration: 3.1s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes move {
+    0% {
+      margin-left: 0px;
+    }
+    50%{
+        margin-left: 200px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }
+.heart {
+    width: 200px;
+    height: 200px;
+}
+img {
+    display: block;
+    filter: grayscale(1); 
+    /* Отвечает за цвет */
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s ease;
+
+}
+
+img:hover {
+    filter: grayscale(0);
+    transition: all 0.5s ease;
+    transform: scale(2);
+    /* Отвечает за увеличение */
+}
