@@ -127,11 +127,11 @@ h1 {
 
 }
 
-.doors:hover .door_left {
+.doors:hover .left_door {
 
-    transform: perspective(1000px) rotateY(40deg);
+    transform: perspective(1000px) rotateY(100deg);
 }
-.doors:hover .door_right {
+.doors:hover .right_door  {
 
-    transform: perspective(1000px) rotateY(40deg);
+    transform: perspective(1000px) rotateY(-100deg);
 }
