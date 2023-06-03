@@ -8,6 +8,12 @@ body {
     background-color: lightpink;
     color: #fff;
     text-transform: uppercase;
+    
+    
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 .r {
     background-color: rgb(128, 0, 53);
@@ -15,19 +21,18 @@ body {
 }
 
 .header {
-    width: 1300px;
     height: 100px;
     padding: 29px 0 26px 50px;
     background-color: rgb(155, 10, 70);
 
 }
 .menu {
-    width: 1300px;
+
     height: 50px;
     padding: 5px 0 5px 50px;
 }
 section {
-    width: 1300px;
+
     display: flex;
 
 }
@@ -88,7 +93,7 @@ section {
     margin: 0;
 }
 footer {
-    width: 1300px;
+
     height: 50px;
     padding: 15px 0 0 50px;
 
