@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: lightpink;
+    color: #fff;
+    text-transform: uppercase;
+}
+.r {
+    background-color: rgb(128, 0, 53);
+    margin-bottom: 10px;
+}
+
+.header {
+    width: 1300px;
+    height: 100px;
+    padding: 29px 0 26px 50px;
+    background-color: rgb(155, 10, 70);
+
+}
+.menu {
+    width: 1300px;
+    height: 50px;
+    padding: 5px 0 5px 50px;
+}
+section {
+    width: 1300px;
+    display: flex;
+
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.aside_1 {
+    width: 300px;
+    height: 100px;
+    padding: 30px 0 0 50px;
+    background-color: rgb(206, 34, 105);
+}
+.aside_2 {
+    width: 300px;
+    height: 150px;
+    padding: 30px 0 0 50px;
+    background-color: rgb(206, 34, 105);
+}
+.menu_content {
+    width: 900px;
+    height: 400px;
+    margin-right: 10px;
+    background-color: rgb(206, 34, 105);
+    
+}
+.active {
+    padding: 30px 0 0 50px;
+}
+.aside_3 {
+    width: 100px;
+    height: 250px;
+    background-color: rgb(206, 34, 105);
+}
+.section_1 {
+    background-color: rgb(233, 141, 179);
+    margin: 0 50px;
+    height: 125px;
+
+}
+.section_2 {
+    background-color: rgb(233, 141, 179);
+    margin: 0 50px;
+    height: 125px;
+}
+.section_title {
+    padding: 30px 0 0 50px;
+}
+.title_aside {
+    /* Для ориентации текста по вертикали */
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    padding: 30px 0 0 20px;
+}
+.footer_title {
+    margin: 0;
+}
+footer {
+    width: 1300px;
+    height: 50px;
+    padding: 15px 0 0 50px;
+
+}
