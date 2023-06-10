@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgrey;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.images {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+img {
+    max-width: 300px;
+    max-height: 220px;
+
+}
+.text {
+    max-width: 700px;
+    float: left;
+}
+
+.box {
+    margin-bottom: 30px;
+    margin-top: -12px;
+    max-width: 300px;
+    background-color: #135c3e;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.note_paragraph {
+    text-align: right;
+    padding-right: 5px;
+}
+@media (min-width: 550px) and (max-width:1022px) {
+    .images {
+        float: left;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 300px) and (max-width: 550px) {
+    .images {
+        margin-top: 10px;
+    }
+}
