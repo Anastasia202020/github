@@ -59,6 +59,8 @@ section .container {
 .content {
     display: flex;
     flex-direction: column;
+    /* Занять все место */
+    flex: 1; 
 }
 .sidebar {
     margin-right: 50px;
@@ -67,7 +69,7 @@ section .container {
 .content__box_name {
     display: flex;
     align-items: center;
-    justify-content: center;
+    width: 100px;
 }
 .row {
     display: flex;
@@ -79,6 +81,7 @@ section .container {
 }
 .row:hover {
     background-color: darkslategray;
+    color: #fff;
 }
 .star {
     max-width: 20px;
@@ -90,37 +93,38 @@ section .container {
     filter: grayscale(0);
 }
 .message {
-    margin-left: 30px;
+    max-width: 250px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex: 1;
+
 }
 .message__paragraph {
     font-weight: bold;
     display: inline-block;
-    padding-right: 15px;
+    flex:1;
     
 }
 span {
     display: inline-block;
+    flex:1;
 }
 .attach {
     display: inline-block;
     max-width: 15px;
     max-height: 15px;
     margin-right: 20px;
-    margin-left: 100px;
 }
 .dates {
     display: inline-block;
 }
 .date {
     display: flex;
+    max-width: 44px;
     justify-content:center;
     align-items: center;
 }
 
-@media (min-width:600px) and (max-width:800px) {
+@media (max-width:800px) {
     .sidebar__icon {
         padding-right: 30px;
     }
@@ -128,7 +132,7 @@ span {
         margin-right: 20px;
     }
 }
-@media (min-width:300px) and (max-width:600) {
+@media (max-width:600px) {
     .sidebar_link {
         display: none;
     }
